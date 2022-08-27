@@ -1,8 +1,14 @@
 import React from "react";
+import SearchMovies from "./SearchMovies";
 
 class App extends React.Component {
   render() {
-    return <h1>Hi Parth!</h1>;
+    return (
+      <div className="container">
+        <h1 className="title">React Movie Search</h1>
+        <SearchMovies />
+      </div>
+    );
   }
 }
 
