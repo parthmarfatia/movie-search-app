@@ -29,7 +29,7 @@ function SearchMovies() {
           type="text"
           className="input"
           name="query"
-          placeholder="Search Movie"
+          placeholder="search for any movie"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
